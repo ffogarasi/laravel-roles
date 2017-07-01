@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Exceptions;
+namespace ffogarasi\LaravelRoles\Exceptions;
 
 class LevelDeniedException extends AccessDeniedException
 {

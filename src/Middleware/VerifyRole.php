@@ -1,11 +1,11 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Middleware;
+namespace ffogarasi\LaravelRoles\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
-use jeremykenedy\LaravelRoles\Exceptions\RoleDeniedException;
+use ffogarasi\LaravelRoles\Exceptions\RoleDeniedException;
 
 class VerifyRole
 {

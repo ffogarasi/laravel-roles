@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles;
+namespace ffogarasi\LaravelRoles;
 
 use Illuminate\Support\ServiceProvider;
 

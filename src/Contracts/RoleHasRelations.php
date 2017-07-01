@@ -1,10 +1,10 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Contracts;
+namespace ffogarasi\LaravelRoles\Contracts;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use jeremykenedy\LaravelRoles\Models\Permission;
+use ffogarasi\LaravelRoles\Models\Permission;
 
 interface RoleHasRelations
 {

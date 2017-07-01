@@ -1,11 +1,11 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Middleware;
+namespace ffogarasi\LaravelRoles\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
-use jeremykenedy\LaravelRoles\Exceptions\PermissionDeniedException;
+use ffogarasi\LaravelRoles\Exceptions\PermissionDeniedException;
 
 class VerifyPermission
 {
@@ -31,7 +31,7 @@ class VerifyPermission
      * @param \Closure $next
      * @param int|string $permission
      * @return mixed
-     * @throws \jeremykenedy\LaravelRoles\Exceptions\PermissionDeniedException
+     * @throws \ffogarasi\LaravelRoles\Exceptions\PermissionDeniedException
      */
     public function handle($request, Closure $next, $permission)
     {
