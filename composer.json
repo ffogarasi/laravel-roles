@@ -7,7 +7,7 @@
     {
       "name": "Fogarasi Ferenc",
       "email": "ffogarssi@gmail.com"
-    },
+    }
   ],
   "require": {
     "php": ">=5.6.4",
